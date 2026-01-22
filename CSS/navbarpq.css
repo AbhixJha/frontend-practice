@@ -1,0 +1,19 @@
+#container{
+    height: 50px;
+    width: 900px;
+    background-color: rgba(112, 73, 22, 0.629);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div{
+    height: 50px;
+    width:80px;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 24px;
+}
