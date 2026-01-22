@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Teaching Platform | All-in-One</title>
+    <link rel="stylesheet" href="css/Ain1.css">
+    <link rel="stylesheet" href="css/teaching.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <div class="bg-animation"></div>
+    
+    <header class="main-header">
+        <div class="container">
+            <a href="Ain1.html" class="logo">All-in-One</a>
+            <nav class="main-nav">
+                <a href="index.html#services"><i class="fas fa-arrow-left"></i> Back to Services</a>
+                <a href="#become-teacher"><i class="fas fa-chalkboard-teacher"></i> Teach</a>
+                <a href="#find-tutor"><i class="fas fa-user-graduate"></i> Learn</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="teaching-main" style="--bg-image: url('images/teach-bg.jpg')">
+        <div class="teaching-overlay"></div>
+        <div class="container">
+            <div class="teaching-hero">
+                <h1 class="teaching-title">Transform Education Through Online Teaching</h1>
+                <p class="teaching-subtitle">Connect, Teach, Inspire - Anywhere, Anytime</p>
+                <div class="teaching-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Expert Tutors</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10,000+</h3>
+                        <p>Students Taught</p>
+                    </div>
+                    <div class="stat">
+                        <h3>4.9/5</h3>
+                        <p>Average Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Features Section -->
+    <section class="teaching-features">
+        <div class="container">
+            <h2 class="section-title">Why Teach With Us?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <h3>Earn Competitive Rates</h3>
+                    <p>Set your own pricing and earn what you deserve for your expertise</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Reach</h3>
+                    <p>Teach students from around the world with our international platform</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Flexible Schedule</h3>
+                    <p>Choose your own teaching hours that fit your lifestyle</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Growth Opportunities</h3>
+                    <p>Access professional development and teaching resources</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Become Teacher Section -->
+    <section id="become-teacher" class="become-teacher">
+        <div class="container">
+            <div class="teacher-form-container">
+                <div class="form-content">
+                    <h2>Start Teaching Today</h2>
+                    <p>Join our community of passionate educators</p>
+                    
+                    <form class="teacher-application" id="teacherForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subjects">Subjects You Teach</label>
+                            <select id="subjects" name="subjects" multiple>
+                                <option value="math">Mathematics</option>
+                                <option value="science">Science</option>
+                                <option value="english">English</option>
+                                <option value="programming">Programming</option>
+                                <option value="arts">Arts & Music</option>
+                                <option value="languages">Languages</option>
+                                <option value="business">Business</option>
+                                <option value="test-prep">Test Preparation</option>
+                            </select>
+                            <small>Hold Ctrl/Cmd to select multiple subjects</small>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="experience">Teaching Experience (years)</label>
+                            <input type="number" id="experience" name="experience" min="0" max="50" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="hourlyRate">Desired Hourly Rate ($)</label>
+                            <input type="number" id="hourlyRate" name="hourlyRate" min="10" max="200" required>
+                        </div>
+                         
+                        
+                        <div class="form-group">
+                            <label for="bio">Teaching Bio</label>
+                            <textarea id="bio" name="bio" rows="4" placeholder="Tell us about your teaching philosophy and experience..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Apply to Teach</span>
+                            <div class="btn-loader" style="display: none;">
+                                <div class="spinner"></div>
+                            </div>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="form-image">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1522&q=80" alt="Happy Teacher">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Find Tutor Section -->
+    <section id="find-tutor" class="find-tutor">
+        <div class="container">
+            <h2 class="section-title">Find Your Perfect Tutor</h2>
+            <div class="tutor-search">
+                <input type="text" id="tutorSearch" placeholder="Search by subject, language, or tutor name...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+            
+            <div class="tutors-grid" id="tutorsGrid">
+                <!-- Tutors will be loaded here dynamically -->
+                <div class="loading-tutors">Loading available tutors...</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Tools Section -->
+    <section class="teaching-tools">
+        <div class="container">
+            <h2 class="section-title">Powerful Teaching Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <i class="fas fa-video"></i>
+                    <h3>HD Video Platform</h3>
+                    <p>Crystal clear video calls with screen sharing</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Interactive Whiteboard</h3>
+                    <p>Real-time collaboration and annotation</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Resource Library</h3>
+                    <p>Upload and share teaching materials</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-chart-bar"></i>
+                    <h3>Progress Tracking</h3>
+                    <p>Monitor student performance and growth</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">All-in-One Teaching</div>
+                <div class="footer-links">
+                    <a href="#">For Teachers</a>
+                    <a href="#">For Students</a>
+                    <a href="#">Resources</a>
+                    <a href="#">Support</a>
+                    <a href="#">For Feedback</a>
+                    
+                </div>
+            
+            </div>
+            <p class="copyright">&copy; 2023 All-in-One Teaching Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/teaching.js"></script>
+</body>
+</html>
