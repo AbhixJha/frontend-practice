@@ -8,4 +8,14 @@ This repository contains my regular frontend practice work while learning web de
 - JavaScript basics (logic, DOM manipulation, events)
 - Small frontend projects using vanilla JavaScript
 
-## Fo
+## Folder Structure
+- `01-html-basics` – HTML fundamentals
+- `02-css-basics` – CSS concepts and layouts
+- `03-js-basics` – JavaScript fundamentals
+- `04-mini-projects` – Small practice projects
+
+## Purpose
+This repository is created to build strong frontend fundamentals before moving to advanced frameworks like React.
+
+## Status
+Learning and practice repository.
