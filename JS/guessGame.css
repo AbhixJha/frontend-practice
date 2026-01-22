@@ -1,0 +1,67 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.instructions {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.game-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+#guess-input {
+  padding: 10px;
+  width: 60%;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+#submit-btn,
+#play-again {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#submit-btn:hover,
+#play-again:hover {
+  background-color: #555;
+}
+
+.hidden {
+  display: none;
+}
+
+#message {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
